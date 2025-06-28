@@ -4,7 +4,7 @@ import openai
 st.title("📚 AnalystDocBot")
 st.write("Ask me anything about your clients, docs, or processes.")
 
-openai.api_key = st.secrets["OPENAI_API_KEY"]
+openai.api_key = st.secrets["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"]
 
 if "history" not in st.session_state:
     st.session_state.history = []
